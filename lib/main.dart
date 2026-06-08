@@ -6,6 +6,8 @@ void main() {
 }
 
 class Uygulamam extends StatelessWidget {
+  const Uygulamam({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(home: Anasayfa());
